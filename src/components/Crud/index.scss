@@ -1,0 +1,12 @@
+.crud-opts {
+  padding: 4px 0;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+.crud-opts .crud-opts-right {
+  margin-left: auto;
+}
+.crud-opts .crud-opts-right span {
+  float: left;
+}

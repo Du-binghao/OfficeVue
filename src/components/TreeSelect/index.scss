@@ -1,0 +1,22 @@
+.select-tree {
+  height: auto;
+  overflow-y: auto;
+  background-color: white;
+  padding: 0;
+  font-weight: 700;
+}
+.el-select-dropdown__list {
+  margin: 0px !important;
+}
+
+.el-tree-node__content {
+  height: 100%;
+}
+
+.el-select-dropdown__item {
+  overflow-y: hidden;
+}
+
+//.is-leaf .el-tree-node_expand-icon  {
+//  display:none;
+//}

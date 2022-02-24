@@ -1,0 +1,39 @@
+.dashboard-editor-container {
+  padding: 32px;
+  background-color: rgb(240, 242, 245);
+  position: relative;
+
+  .github-corner {
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+  }
+
+  .chart-wrapper {
+    background: #fff;
+    padding: 16px 16px 0;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .chart-wrapper {
+    padding: 8px;
+  }
+}
+
+.cont {
+  position: absolute;
+  padding: 5px 30px 3px 30px;
+  bottom: 2px;
+  top: 222px;
+  width: 100%;
+
+  .info{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}

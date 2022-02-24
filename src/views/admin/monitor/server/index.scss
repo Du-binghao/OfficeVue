@@ -1,0 +1,84 @@
+.box-card {
+  margin-bottom: 5px;
+  .os-span {
+    margin-right: 28px;
+  }
+  .el-icon-right {
+    margin-right: 10px;
+    float: right;
+    cursor:pointer;
+  }
+}
+.cpu, .memory, .swap, .disk  {
+  width: 20%;
+  float: left;
+  padding-bottom: 20px;
+  margin-right: 5%;
+}
+.title {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #999;
+  margin-bottom: 16px;
+}
+.footer {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #999;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.content {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+//.cpu-chart{
+//  width: 100%;
+//  height: 350px;
+//}
+.server-chart{
+  width: 100%;
+  height: 370px;
+}
+
+
+//min-width: 73%;
+//width: 100%;
+//border: 0 solid #EBEEF5;
+//padding: 12px;
+//z-index: 2000;
+//margin-right: 55px;
+//line-height: 1.4;
+//text-align: justify;
+//font-size: 14px;
+//box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+//word-break: break-all;
+
+//更改提示颜色
+.server-dark {
+  position: absolute;
+  background: #303133 !important;
+  color: white!important;
+  padding: 10px!important;
+  width: auto;
+}
+.server-dark.el-popper.is-light .el-popper__arrow::before {
+  border:  0;
+  background-color: #303133;
+}
+
+//.el-popper .popper__arrow::before {
+//  bottom: -0.2px;
+//  margin-left: -6px;
+//  border-top-color: #303133 !important;
+//  background: #303133 !important;
+//}
+
+//.el-popper .is-light[data-popper-placement^=top] .el-popper__arrow::before {
+//  background-color: #1a1a1a;
+//  border-top-color: transparent;
+//  border-left-color: transparent;
+//}

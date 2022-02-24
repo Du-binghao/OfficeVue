@@ -1,0 +1,20 @@
+//::v-deep .el-input-number .el-input__inner {
+//  text-align: left;
+//}
+//::v-deep .vue-treeselect__control,::v-deep .vue-treeselect__placeholder,::v-deep .vue-treeselect__single-value {
+//  height: 30px;
+//  line-height: 30px;
+//}
+
+
+//.select-tree .el-scrollbar .el-select-dropdown__wrap .el-scrollbar__view .el-select-dropdown__item{
+//  height: auto;
+//}
+
+
+.menu-table{  //table的class
+  .el-table__fixed,  .el-table__fixed-right{
+    height: 100% !important; //设置高优先，以覆盖内联样式
+  }
+}
+
